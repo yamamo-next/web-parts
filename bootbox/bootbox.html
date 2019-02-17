@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Bootstrap-bootbox</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css">
+      <script src="./js/jquery-3.3.1.min.js"></script>
+      <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+      <script src="./js/bootbox.min.js"></script>
+    </head>
+
+   <body>
+     <!-- set up the modal to start hidden and fade in and out -->
+     <div id="myModal" class="modal fade">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <!-- dialog body -->
+           <div class="modal-body">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             bootboxに表示するメッセージ
+           </div>
+           <!-- dialog buttons -->
+           <div class="modal-footer"><button id="OK" type="button" class="btn btn-primary">OK</button></div>
+         </div>
+       </div>
+     </div>
+
+     <div style="margin: 40px">
+       <button id="bootbox" class="btn btn-large"> bootboxの起動</button>
+     </div>
+
+     <script src="main.js"></script>
+
+   </body>
+</html>
